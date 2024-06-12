@@ -1,141 +1,158 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #fffdfd;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #3c28ec;
-    color: #ffffff;
-    position: sticky;
-    top: 0;
-  }
-  
-  .nav-brand {
-    font-size: 1.5em;
-  }
-  
-  .nav-button {
-    background-color: #fff;
-    color: #3c28ec;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .nav-button:hover {
-    background-color: #fc8c8c;
-    color: #000000;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 50px auto 0;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .search-bar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .search-bar input {
-    padding: 10px;
-    width: 70%;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
-  .search-button {
-    padding: 10px;
-    border: none;
-    background-color: #3c28ec;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .search-button:hover {
-    background-color: #fc8c8c;
-    color: #020202;
-  }
-  
-  .weather-card {
-    padding: 20px;
-    border: 1px solid #020202;
-    border-radius: 10px;
-    background-color: #3c28ec ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #fff; 
-  }
-  
-  .weather-card h2,
-  .weather-card p,
-  .weather-card h3 {
-    color: #fff; 
-  }
-  
-  .dark-mode {
-    background-color: #121212;
-    color: #fff;
-  }
-  
-  .dark-mode .navbar {
-    background-color: #333;
-  }
-  
-  .dark-mode .nav-button {
-    background-color: #555;
-    color: #ffffff;
-  }
-  
-  .dark-mode .nav-button:hover {
-    background-color: #777777;
-    color: rgb(0, 0, 0);
-  }
-  
-  .dark-mode .container {
-    background-color: rgba(51, 51, 51, 0.8);
-    box-shadow: none;
-  }
-  
-  .dark-mode .weather-card {
-    background-color: rgba(68, 68, 68, 0.7);
-    border-color: #555;
-    color: #fff;
-  }
-  
-  .dark-mode .search-bar input {
-    background-color: #555;
-    color: #fff;
-    border-color: #666;
-  }
-  
-  .dark-mode .search-button {
-    background-color: #555;
-  }
-  
-  .dark-mode .search-button:hover {
-    background-color: #777;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('https://media.licdn.com/dms/image/D5612AQEL3YrYn99I1g/article-cover_image-shrink_720_1280/0/1678997516199?e=2147483647&v=beta&t=zttncsVSqiXfJSMe9KjLJgdU5FNMltPUjAFcY6GgCjY');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Default overlay for light mode */
+  z-index: 0;
+  pointer-events: none; /* Allow interaction with elements behind the overlay */
+  transition: background 0.3s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0732f5;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Ensure navbar is above the overlay */
+}
+
+.nav-brand {
+  font-size: 1.5em;
+}
+
+.nav-button {
+  background-color: #fff;
+  color: #0732f5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #1a1864;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1; /* Ensure container is above the overlay */
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.search-button {
+  padding: 10px;
+  border: none;
+  background-color: #0732f5;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #1c1b5c;
+}
+
+.weather-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #0732f5; /* Slightly transparent for better readability */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Ensure text is white */
+}
+
+.weather-card h2,
+.weather-card p,
+.weather-card h3 {
+  color: #fff; /* Ensure text is white */
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+}
+
+.dark-mode .nav-button {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .nav-button:hover {
+  background-color: #777;
+}
+
+.dark-mode .container {
+  background-color: rgba(51, 51, 51, 0.8);
+  box-shadow: none;
+}
+
+.dark-mode .weather-card {
+  background-color: rgba(68, 68, 68, 0.7);
+  border-color: #555;
+  color: #fff;
+}
+
+.dark-mode .search-bar input {
+  background-color: #555;
+  color: #fff;
+  border-color: #666;
+}
+
+.dark-mode .search-button {
+  background-color: #555;
+}
+
+.dark-mode .search-button:hover {
+  background-color: #777;
+}
+
+.dark-mode .overlay {
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for dark mode */
+}
