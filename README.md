@@ -51,7 +51,7 @@ To run the application locally, follow these steps:
 
 ## Deployment
 
-application deployed link [here] (https://kraftshalaweatherapp.netlify.app/).
+application deployed link [here](https://kraftshalaweatherapp.netlify.app/).
 application Backend is deployed using [Render](https://render.com/) and can be accessed [here](https://weather-app-mrd8.onrender.com).
 
 ## Technologies Used
