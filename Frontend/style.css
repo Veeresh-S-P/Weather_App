@@ -5,7 +5,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #333;
+    color: #fffdfd;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -16,8 +16,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #3c28ec;
+    color: #ffffff;
     position: sticky;
     top: 0;
   }
@@ -28,7 +28,7 @@ body {
   
   .nav-button {
     background-color: #fff;
-    color: #4CAF50;
+    color: #3c28ec;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -37,8 +37,8 @@ body {
   }
   
   .nav-button:hover {
-    background-color: #45a049;
-    color: #fff;
+    background-color: #fc8c8c;
+    color: #000000;
   }
   
   .container {
@@ -68,7 +68,7 @@ body {
   .search-button {
     padding: 10px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #3c28ec;
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
@@ -76,14 +76,15 @@ body {
   }
   
   .search-button:hover {
-    background-color: #45a049;
+    background-color: #fc8c8c;
+    color: #020202;
   }
   
   .weather-card {
     padding: 20px;
     border: 1px solid #020202;
     border-radius: 10px;
-    background-color: #45a049 ;
+    background-color: #3c28ec ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #fff; 
   }
@@ -105,11 +106,12 @@ body {
   
   .dark-mode .nav-button {
     background-color: #555;
-    color: #fff;
+    color: #ffffff;
   }
   
   .dark-mode .nav-button:hover {
-    background-color: #777;
+    background-color: #777777;
+    color: rgb(0, 0, 0);
   }
   
   .dark-mode .container {
