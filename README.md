@@ -19,26 +19,23 @@ As a part of hiring process for the Frontend Developer intern position at Krafts
 ## Screenshots
 
 
-![Screenshot 1](https://drive.google.com/file/d/1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI/view?usp=sharing)
+![Screenshot 1](https://drive.google.com/file/d/1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI)
 
-https://drive.google.com/file/d/1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI/view?usp=sharing
 
-![Screenshot 2](https://drive.google.com/file/d/1zjThc3XqPZkkl40VDtmapwTWajE2YiL1/view?usp=sharing)
+![Screenshot 2](https://drive.google.com/file/d/1zjThc3XqPZkkl40VDtmapwTWajE2YiL1)
 
-https://drive.google.com/file/d/1zjThc3XqPZkkl40VDtmapwTWajE2YiL1/view?usp=sharing
 
 ![Screenshot 3](https://drive.google.com/uc?export=view&id=1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0)
 
 
-https://drive.google.com/file/d/1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0/view?usp=sharing
 
-![Screenshot 4](https://drive.google.com/file/d/1cU0a0SlVjRJFSk5XXttvWoGsSyJKJ7Hz/view?usp=sharing)
+![Screenshot 4](https://drive.google.com/file/d/1cU0a0SlVjRJFSk5XXttvWoGsSyJKJ7Hz)
 
-https://drive.google.com/file/d/1cU0a0SlVjRJFSk5XXttvWoGsSyJKJ7Hz/view?usp=sharing
+
 
 ## Presentation
 
-![Link to Presentation](https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll/view?usp=sharing)
+![Link to Presentation](https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll)
 
 https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll/view?usp=sharing
 
