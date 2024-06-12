@@ -19,17 +19,14 @@ As a part of hiring process for the Frontend Developer intern position at Krafts
 ## Screenshots
 
 
-![Screenshot 1](https://drive.google.com/file/d/1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI)
+![Screenshot 1](https://drive.google.com/uc?export=view&id=1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI)
 
-
-![Screenshot 2](https://drive.google.com/file/d/1zjThc3XqPZkkl40VDtmapwTWajE2YiL1)
-
+![Screenshot 2](https://drive.google.com/uc?export=view&id=1zjThc3XqPZkkl40VDtmapwTWajE2YiL1)
 
 ![Screenshot 3](https://drive.google.com/uc?export=view&id=1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0)
 
+![Screenshot 4](https://drive.google.com/uc?export=view&id=1cU0a0SlVjRJFSk5XXttvWoGsSyJKJ7Hz)
 
-
-![Screenshot 4](https://drive.google.com/file/d/1cU0a0SlVjRJFSk5XXttvWoGsSyJKJ7Hz)
 
 
 
