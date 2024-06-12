@@ -27,7 +27,8 @@ https://drive.google.com/file/d/1x2Y00uzAp1HlZJh5NPdWAZROU3ODExlI/view?usp=shari
 
 https://drive.google.com/file/d/1zjThc3XqPZkkl40VDtmapwTWajE2YiL1/view?usp=sharing
 
-![Screenshot 3](https://drive.google.com/file/d/1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0/view?usp=sharing)
+![Screenshot 3](https://drive.google.com/uc?export=view&id=1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0)
+
 
 https://drive.google.com/file/d/1OvwcikC2gw6JkyoXQuZ17SHrppep4Qi0/view?usp=sharing
 
