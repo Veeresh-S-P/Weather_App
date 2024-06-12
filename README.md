@@ -32,7 +32,9 @@ As a part of hiring process for the Frontend Developer intern position at Krafts
 
 ## Presentation
 
-![Link to Presentation](https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll)
+[![Link to Presentation](https://via.placeholder.com/150)](https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll)
+
+
 
 https://drive.google.com/file/d/1SUk-qqEMbigbNTaQa2-c8fy52M7Z88Ll/view?usp=sharing
 
